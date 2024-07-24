@@ -1,0 +1,39 @@
+/*basic styling for the body element*/
+body {
+    /*sets the font family for the body text*/
+    font-family: Arial, sans-serif;
+    /*background color of the page*/
+    background-color: #c59fda;
+    /*text color for the page*/
+    color: #333;
+    /* centers the container vertically and horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*full height of the viewport*/
+    height:100vh;
+    /*removes default margin*/
+    margin: 0;
+}
+
+/*styles for the main container*/
+.container {
+    /*center-aligns text within the container*/
+    text-align: center;
+    /*Adds space between each control section*/
+    margin: 20px 0;
+    /*adds a borders around the container*/
+    border
+}
+
+/*styles for each sound control section*/
+.sound-control {
+    /*adds space between each control section*/
+    margin: 20px 0;
+}
+
+/*styles for the volume sliders*/
+.volume-slider {
+    /*width of the sliders*/
+    width: 300px;
+}

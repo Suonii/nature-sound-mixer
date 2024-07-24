@@ -1,0 +1,15 @@
+/*basic styling for the body element*/
+body {
+    /*sets the font family for the body text*/
+    font-family: Arial, sans-serif;
+    /*background color of the page*/
+    background-color: #f0f8ff;
+    /*text color for the page*/
+    color: #333;
+    /* centers the container vertically and horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*full height of the viewport*/
+    height
+}
