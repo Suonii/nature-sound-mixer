@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //object to store the sounds with their URLs, audio elements, and gain nodes
     const sounds = {
-        rain: { url: 'sounds/rain.aiff', element: null, gainNode: null},
-        forest: { url: 'sounds/forest.wav', element: null, gainNode: null},
-        ocean: { url: 'sounds/ocean.wav', element: null, gainNode: null}
+        rain: { url: 'sounds/rain.mp3', element: null, gainNode: null},
+        forest: { url: 'sounds/forest.mp3', element: null, gainNode: null},
+        ocean: { url: 'sounds/ocean.mp3', element: null, gainNode: null}
     };
 
     //Loop through each sound in the sounds object to set up the audio elements and gain nodes
